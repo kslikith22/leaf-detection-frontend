@@ -23,7 +23,6 @@ yarn run start
 git add <filename>
 git commit -m "Updates build"
 git push origin <branchname>
-cp client/.env.dev client/.env
 ```
 
 2. Pull the updated code.
