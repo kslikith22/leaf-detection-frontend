@@ -6,7 +6,7 @@
 
 - Create `.env` files for client
 
-REACT_APP_API_URL = http://localhost:8080/predict  (There is seperate repo to run backend , dm for link)
+REACT_APP_API_URL = http://localhost:8080/predict  (There is seperate repo to run backend , ping me for link)
 
 
 - Setup project
