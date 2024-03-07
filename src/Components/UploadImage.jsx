@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "../index.css"
 
 const UploadImage = () => {
   const [uploadFile, setUploadFile] = useState("");
@@ -29,13 +30,15 @@ const UploadImage = () => {
       setResult(res.data);
       console.log(res)
     } catch (error) {
-      alert("Something went wrong");
+      window.location.href="http://localhost:3000/server"
       console.log(error)
-      window.location.reload();
+     
     }
   };
 
   return (
+    <div id="backimg">
+
     <center style={{ display: "flex", flexDirection: "column" }}>
       <h1><u>Upload an Image</u></h1>
       <h3>Note : Test with image given in images folder inside root directory</h3>
@@ -90,6 +93,8 @@ const UploadImage = () => {
         ""
       )}
     </center>
+    </div>
+ 
   );
 };
 
