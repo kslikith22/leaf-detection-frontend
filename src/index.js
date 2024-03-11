@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './Components/App';
+import "./index.css";
 import About from "./Components/About"
 import Server from './Components/Server';
-
+import Main from './Components/Main';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 
 
 const router = createBrowserRouter([
   { 
     path : '/',
-    element :<App/>,
+    element :<Main/>,
     errorElement:<h1>Page not found</h1>
   
   

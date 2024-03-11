@@ -1,5 +1,3 @@
-import Navbar from './Navbar'
-import Footor from './Footor'
 
 export default function Server(){
     const styles = {
@@ -31,13 +29,13 @@ export default function Server(){
     
       return (
         <>
-        <Navbar/>
+  
         <div style={styles.container}>
           <h1 style={styles.title}>Server Under Maintenance</h1>
           <p style={styles.message}>We apologize for the inconvenience. We are currently working on fixing some issues with our server. Please check back soon.</p>
          
         </div>
-        <Footor/>
+
         </>
       );
 }
